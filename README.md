@@ -55,7 +55,7 @@ This command will create a new directory called "hello-world" and download the r
 
 ### Setup
 
-Since this is a simple "hello-world" repository, there are no additional setup steps required.
+There are no additional setup steps required.
 
 
 ### Install

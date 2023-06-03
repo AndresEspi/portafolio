@@ -5,73 +5,73 @@
 }
 
 .toolbar {
-    background: #3c3a39;
-    display: flex;
-    justify-content: space-between;
-    font-family: "Inter", Georgia, "Times New Roman", Times, serif;
-    font-weight: 700;
-    font-size: 18px;
-    height: 60px;
+  background: #3c3a39;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Inter", Georgia, "Times New Roman", Times, serif;
+  font-weight: 700;
+  font-size: 18px;
+  height: 60px;
 }
 
 .main-class {
-    font-family: "Inter", Georgia, "Times New Roman", Times, serif;
-    height: 500px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: #1c1a19;
+  font-family: "Inter", Georgia, "Times New Roman", Times, serif;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #1c1a19;
 }
 
 .logo {
-    padding: 20px;
-    color: #fff;
-    font-style: normal;
+  padding: 20px;
+  color: #fff;
+  font-style: normal;
 }
 
 .button {
-    display: flex;
-    align-items: flex-start;
-    padding: 25px;
+  display: flex;
+  align-items: flex-start;
+  padding: 25px;
 }
 
 .Hey-there {
-    font-style: normal;
-    font-family: Crete Round;
-    font-weight: 400;
-    font-size: 56px;
-    color: #ff6b00;
-    margin: 20px;
+  font-style: normal;
+  font-family: 'Crete Round', serif; 
+  font-weight: 400;
+  font-size: 56px;
+  color: #ff6b00;
+  margin: 20px;
 }
 
 .i-m {
-    font-family: Crete Round;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 32px;
-    color: #fff5e1;
-    margin: 20px;
+  font-family: 'Crete Round', serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #fff5e1;
+  margin: 20px;
 }
 
 .description {
-    font-family: Crete Round;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #fff;
-    margin: 20px;
+  font-family: 'Crete Round', serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  margin: 20px;
 }
 
 .icons {
-    display: flex;
+  display: flex;
 }
 
 .icon {
-    margin: 0.5px;
-    filter: grayscale(100%) brightness(200%);
+  margin: 0.5px;
+  filter: grayscale(100%) brightness(200%);
 }
 
 li {
-    list-style: none;
+  list-style: none;
 }

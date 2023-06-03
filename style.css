@@ -16,13 +16,13 @@
 }
 
 .main-class {
-  font-family: "Inter", Georgia, "Times New Roman", Times, serif;
-  height: 500px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  background-color: #1c1a19;
+    font-family: "Inter", Georgia, "Times New Roman", Times, serif;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #1c1a19;
 }
 
 
@@ -46,15 +46,16 @@
     font-weight: 400;
     font-size: 56px;
     color: #FF6B00;
-    margin: 20px ;
+    margin: 20px;
 }
+
 .i-m {
     font-family: 'crete Round';
     font-weight: 700;
     font-size: 24px;
     line-height: 32px;
     color: #FFF5E1;
-    margin: 20px ;
+    margin: 20px;
 }
 
 .description {
@@ -63,17 +64,18 @@
     font-size: 16px;
     line-height: 24px;
     color: #FFFFFF;
-    margin: 20px ;
+    margin: 20px;
 }
 
 .icons {
     display: flex;
 }
-.icon{
-    margin: 0.5px;
-    filter: invert(150%) sepia(5000%) saturate(0%) brightness(1000%) contrast(100000%);
 
+.icon {
+    margin: 0.5px;
+    filter: grayscale(100%) brightness(200%);
 }
-li{
+
+li {
     list-style: none;
 }

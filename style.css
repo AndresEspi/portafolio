@@ -15,19 +15,23 @@
 }
 
 .main-class {
-  font-family: "Inter", Georgia, "Times New Roman", Times, serif;
-  height: 500px;
+  height: 560px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding: 0 20px;
   background-color: #1c1a19;
+  background-image: url("./ressources/Ilustration/illustration-mobile.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
 }
 
 .logo {
   padding: 20px;
   color: #fff;
   font-style: normal;
+  text-decoration: none;
 }
 
 .button {
@@ -37,30 +41,32 @@
 }
 
 .Hey-there {
-  font-style: normal;
-  font-family: 'Crete Round', serif;
+  letter-spacing: 0.37px;
+  font-family: 'Crete Round','Times New Roman', Times, serif;
   font-weight: 400;
   font-size: 56px;
-  color: #ff6b00;
-  margin: 20px;
+  color: #ff6b00; 
+  margin: 10px 0;
 }
 
 .i-m {
-  font-family: 'Crete Round', serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 24px;
   line-height: 32px;
+  display: flex;
+  align-items: center;
+  margin: 12px 0;
   color: #fff5e1;
-  margin: 20px;
 }
 
 .description {
-  font-family: 'Crete Round', serif;
+  font-family: 'Poppins',sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   color: #fff;
-  margin: 20px;
+  width: 80%;
 }
 
 .icons {

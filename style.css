@@ -42,7 +42,7 @@
 
 .Hey-there {
   letter-spacing: 0.37px;
-  font-family: 'Crete Round';
+  font-family: 'crete Round',serif;
   font-weight: 400;
   font-size: 56px;
   color: #ff6b00;
@@ -61,7 +61,7 @@
 }
 
 .description {
-  font-family: 'Poppins';
+  font-family: 'poppins'sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;

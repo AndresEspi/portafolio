@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.toolbar {
+  background: #3c3a39;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Inter", Georgia, "Times New Roman", Times, serif;
+  font-weight: 700;
+  font-size: 18px;
+  height: 60px;
+}
+
+.main-class {
+  height: 560px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 20px;
+  background-color: #1c1a19;
+  background-image: url("./ressources/Ilustration/illustration-mobile.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+.logo {
+  padding: 20px;
+  color: #fff;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.button {
+  display: flex;
+  align-items: flex-start;
+  padding: 25px;
+}
+
+.Hey-there {
+  letter-spacing: 0.37px;
+  font-family: 'crete Round', serif;
+  font-weight: 400;
+  font-size: 56px;
+  color: #ff6b00;
+  margin: 10px 0;
+}
+
+.i-m {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  margin: 12px 0;
+  color: #fff5e1;
+}
+
+.description {
+  font-family: 'poppins', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  width: 80%;
+}
+
+.icons {
+  display: flex;
+}
+
+.icon {
+  margin: 0.5px;
+  filter: grayscale(100%) brightness(200%);
+}
+
+li {
+  list-style: none;
+}

@@ -10,6 +10,7 @@
   - [Setup](#setup)
   - [Install](#install)
 - [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
@@ -19,7 +20,7 @@
 
 # 📖 Portafolio <a name="about-project"></a>
 
-**portfolio website project** 
+**In this project I implemented a web page following a Figma design.** 
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -32,6 +33,7 @@
 
 - **Version control**
 - **Branching and merging**
+- **Personal Projects**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -41,17 +43,19 @@ Ensure you have the following software installed on your machine:
 
 - **code editor(I recommend Visual Studio Code )**
 - **Git**
+- **IDE (Integrated Development Environment) to edit the code**
+- **Browser to run the website**
 
 ### Clone the repository
 
 Open a terminal or command prompt and navigate to the directory where you want to clone the repository. Then, run the following command:
-´git clone https://github.com/AndresEspi/hello-world.git´
+"git clone https://github.com/AndresEspi/portafolio/tree/main "
 This command will create a new directory called "hello-world" and download the repository files into it.
 
 
 ### Setup
 
-Since this is a simple "hello-world" repository, there are no additional setup steps required.
+There are no additional setup steps required.
 
 
 ### Install
@@ -62,7 +66,7 @@ There are no dependencies to install for this repository.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## 👥 Authors <a name="authors"></a>
+## 👥 Authors <a name="AndresEspi"></a>
 
 👤 **Author1**
 
@@ -72,6 +76,11 @@ There are no dependencies to install for this repository.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 🔭 Future Features <a name="future-features"></a>
+
+**required implementations of deliverables two and three of the portfolio project**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🤝 Contributing <a name="contributing"></a>
 
@@ -92,8 +101,11 @@ If you find this project useful, please consider supporting it. Your support mea
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank .....
-- **microvrese for allowing me to participate in this great boot-camp**
-- **my groupmates from the first week**
+- **The Microverse team**
+- **All my reviewers**
+- **My standup teammates**
+- **My coding partners**
+- **My morning session teammates**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

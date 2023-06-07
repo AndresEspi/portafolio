@@ -81,3 +81,161 @@
 li {
   list-style: none;
 }
+
+.works{
+  background: #fff;
+  color: #1c1a19;
+  padding: 100px 6.4%;
+  text-align: center;
+}
+
+.head-works{
+  font-family: 'crete Round', serif;
+  line-height: 52px;
+  font-size: 40px;  
+  font-weight: 400;
+}
+
+.content{
+  margin-top: 50px;
+  max-width: 1170px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+}
+
+.project img{
+  width: 300px;
+}
+
+.head-description{
+  color:  #091E42;
+  font-family: 'crete Round', serif;
+  font-size: 32px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.project-description{
+  color: #091E42;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+.programming-language{
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+
+.item{
+  font-weight: 500;
+  font-size: 15px;
+  color: #091e42;
+  margin: 15px 5px;
+  padding: 10px;
+  border: 1px solid #8993a4
+}
+
+.button-project{
+  font-weight: bold;
+  font-size: 17px;
+  background-color: #ff6b00;
+  color: #fff;
+  height: 48px;
+  width: 124px;
+  justify-content: center;
+  border: none;
+}
+
+.about-me{
+  background-color: #1c1a19;
+  flex-direction: column;
+  padding: 100px 0.1%;
+  background-image: url("ressources/Ilustration/illustration-mobile1.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+.about-title{
+  font-family: "Crete Round", serif;
+  font-size: 72px;
+  margin: 100px auto 0 20px;
+  color: #f55800;
+}
+
+.about-description{
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 20px;
+  text-align: left;
+  color: #fff;
+}
+
+.about-button{
+  font-weight: bold;
+  font-size: 17px;
+  background-color: #ff6b00;
+  color: #fff;
+  height: 48px;
+  justify-content: center;
+  border: none;
+  margin-left: 20px;
+}
+
+.about-ilustration{
+  text-align: right;
+}
+
+.skills{
+  text-align: center;
+  background-color: #1c1a19;
+  padding: 100px 6.4%;
+}
+
+.skills-title{
+  font-size: 32px;
+  margin-top: 70px;
+  color: #fff;
+  font-weight: 400;
+  font-family: "Inter",serif;
+}
+
+.skill{
+  color: #fff;
+  font-family: "Inter", serif;
+  font-weight: 400;
+  font-weight: normal;
+  font-size: 22px;
+  margin: 20px auto;
+}
+
+.rhombus{
+  margin-right: 3%;
+  height: 1.5rem;
+  width: 1.5rem;
+  background-color: #ff6b00; 
+  transform: rotate(45deg);
+  display: inline-block;
+}
+.square{
+  margin-right: 3%;
+  height: 1.5rem;
+  width: 1.5rem;
+  background-color: #ff6b00; 
+  display: inline-block;
+}
+.circle{
+  margin-right: 3%;
+  height: 1.5rem;
+  width: 1.5rem;
+  background-color: #ff6b00; 
+  display: inline-block;
+  border-radius: 50%;
+}

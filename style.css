@@ -109,16 +109,16 @@ li {
 }
 
 .head-description {
-  color: #091E42;
-  font-family: 'crete Round', serif;
+  color: #091e42;
+  font-family: 'Crete Round', serif;
   font-size: 32px;
   font-weight: 400;
   text-align: left;
 }
 
 .project-description {
-  color: #091E42;
-  font-family: Inter;
+  color: #091e42;
+  font-family: 'Inter', sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;

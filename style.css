@@ -82,21 +82,21 @@ li {
   list-style: none;
 }
 
-.works{
+.works {
   background: #fff;
   color: #1c1a19;
   padding: 100px 6.4%;
   text-align: center;
 }
 
-.head-works{
+.head-works {
   font-family: 'crete Round', serif;
   line-height: 52px;
-  font-size: 40px;  
+  font-size: 40px;
   font-weight: 400;
 }
 
-.content{
+.content {
   margin-top: 50px;
   max-width: 1170px;
   display: flex;
@@ -104,19 +104,19 @@ li {
   padding-left: 20px;
 }
 
-.project img{
+.project img {
   width: 300px;
 }
 
-.head-description{
-  color:  #091E42;
+.head-description {
+  color: #091E42;
   font-family: 'crete Round', serif;
   font-size: 32px;
   font-weight: 400;
   text-align: left;
 }
 
-.project-description{
+.project-description {
   color: #091E42;
   font-family: Inter;
   font-size: 16px;
@@ -125,23 +125,23 @@ li {
   text-align: left;
 }
 
-.programming-language{
+.programming-language {
   display: flex;
   flex-direction: row;
   justify-content: start;
   align-items: center;
 }
 
-.item{
+.item {
   font-weight: 500;
   font-size: 15px;
   color: #091e42;
   margin: 15px 5px;
   padding: 10px;
-  border: 1px solid #8993a4
+  border: 1px solid #8993a4;
 }
 
-.button-project{
+.button-project {
   font-weight: bold;
   font-size: 17px;
   background-color: #ff6b00;
@@ -152,7 +152,7 @@ li {
   border: none;
 }
 
-.about-me{
+.about-me {
   background-color: #1c1a19;
   flex-direction: column;
   padding: 100px 0.1%;
@@ -161,14 +161,14 @@ li {
   background-position: right bottom;
 }
 
-.about-title{
+.about-title {
   font-family: "Crete Round", serif;
   font-size: 72px;
   margin: 100px auto 0 20px;
   color: #f55800;
 }
 
-.about-description{
+.about-description {
   font-size: 16px;
   font-family: "Inter", sans-serif;
   font-weight: 400;
@@ -178,7 +178,7 @@ li {
   color: #fff;
 }
 
-.about-button{
+.about-button {
   font-weight: bold;
   font-size: 17px;
   background-color: #ff6b00;
@@ -189,25 +189,25 @@ li {
   margin-left: 20px;
 }
 
-.about-ilustration{
+.about-ilustration {
   text-align: right;
 }
 
-.skills{
+.skills {
   text-align: center;
   background-color: #1c1a19;
   padding: 100px 6.4%;
 }
 
-.skills-title{
+.skills-title {
   font-size: 32px;
   margin-top: 70px;
   color: #fff;
   font-weight: 400;
-  font-family: "Inter",serif;
+  font-family: "Inter", serif;
 }
 
-.skill{
+.skill {
   color: #fff;
   font-family: "Inter", serif;
   font-weight: 400;
@@ -216,26 +216,28 @@ li {
   margin: 20px auto;
 }
 
-.rhombus{
+.rhombus {
   margin-right: 3%;
   height: 1.5rem;
   width: 1.5rem;
-  background-color: #ff6b00; 
+  background-color: #ff6b00;
   transform: rotate(45deg);
   display: inline-block;
 }
-.square{
+
+.square {
   margin-right: 3%;
   height: 1.5rem;
   width: 1.5rem;
-  background-color: #ff6b00; 
+  background-color: #ff6b00;
   display: inline-block;
 }
-.circle{
+
+.circle {
   margin-right: 3%;
   height: 1.5rem;
   width: 1.5rem;
-  background-color: #ff6b00; 
+  background-color: #ff6b00;
   display: inline-block;
   border-radius: 50%;
 }

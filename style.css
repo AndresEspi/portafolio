@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@100&family=Poppins:wght@100&family=Roboto:wght@100&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -42,7 +44,7 @@
 
 .Hey-there {
   letter-spacing: 0.37px;
-  font-family: 'crete Round', serif;
+  font-family: 'Crete Round', serif;
   font-weight: 400;
   font-size: 56px;
   color: #ff6b00;
@@ -61,7 +63,7 @@
 }
 
 .description {
-  font-family: 'poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -83,21 +85,21 @@ li {
 }
 
 .works {
-  background: #fff;
-  color: #1c1a19;
-  padding: 100px 6.4%;
-  text-align: center;
+  display:grid;
+  padding: 100px 6.3%;
 }
 
 .head-works {
-  font-family: 'crete Round', serif;
+  font-family: 'Crete Round', serif;
   line-height: 52px;
   font-size: 40px;
   font-weight: 400;
+  text-align: center;
 }
 
 .content {
   margin-top: 50px;
+  margin-bottom: 8%;
   max-width: 1170px;
   display: flex;
   flex-direction: column;
@@ -105,6 +107,10 @@ li {
 }
 
 .project img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 8%;
   width: 300px;
 }
 
@@ -126,6 +132,7 @@ li {
 }
 
 .programming-language {
+  font-family: 'Inter', sans-serif;
   display: flex;
   flex-direction: row;
   justify-content: start;
@@ -133,6 +140,7 @@ li {
 }
 
 .item {
+  font-family: 'Inter', sans-serif;
   font-weight: 500;
   font-size: 15px;
   color: #091e42;
@@ -142,12 +150,66 @@ li {
 }
 
 .button-project {
+  font-family: 'Inter', sans-serif;
   font-weight: bold;
   font-size: 17px;
   background-color: #ff6b00;
   color: #fff;
   height: 48px;
   width: 124px;
+  justify-content: center;
+  border: none;
+}
+
+.content1{
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0.103) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url("ressources/Ilustration/Prj1.png");
+  background-size: cover ;
+  background-position: center ;
+  padding: 50px 6.4%;
+  display: grid;
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 8%;
+}
+
+.head-description1 {
+  color: #fff;
+  font-family: 'Crete Round', serif;
+  font-size: 32px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.project-description1 {
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+.item1 {
+  font-family: 'Inter', sans-serif;
+  background-color: rgba(200, 200, 200, 0.445);
+  font-weight: 500;
+  font-size: 15px;
+  color: #fff;
+  margin: 15px 5px;
+  padding: 10px;
+}
+
+.button-project1 {
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  background-color: #ff6b00;
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 48px;
   justify-content: center;
   border: none;
 }
@@ -159,10 +221,11 @@ li {
   background-image: url("ressources/Ilustration/illustration-mobile1.png");
   background-repeat: no-repeat;
   background-position: right bottom;
+  padding-bottom: 47%;
 }
 
 .about-title {
-  font-family: "Crete Round", serif;
+  font-family: 'Crete Round', serif;
   font-size: 72px;
   margin: 100px auto 0 20px;
   color: #f55800;
@@ -170,7 +233,7 @@ li {
 
 .about-description {
   font-size: 16px;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 400;
   line-height: 24px;
   margin: 20px;
@@ -180,10 +243,10 @@ li {
 
 .about-button {
   font-weight: bold;
-  font-size: 17px;
   background-color: #ff6b00;
   color: #fff;
-  height: 48px;
+  height: 40px;
+  width: 130px;
   justify-content: center;
   border: none;
   margin-left: 20px;
@@ -204,12 +267,12 @@ li {
   margin-top: 70px;
   color: #fff;
   font-weight: 400;
-  font-family: "Inter", serif;
+  font-family: 'Inter', sans-serif;
 }
 
 .skill {
   color: #fff;
-  font-family: "Inter", serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-weight: normal;
   font-size: 22px;

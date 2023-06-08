@@ -86,24 +86,23 @@ li {
 
 .works {
   display: grid;
-  padding: 100px 6.3%;
+  margin: auto;
+  width: 327px;
 }
 
 .head-works {
   font-family: 'Crete Round', serif;
-  line-height: 52px;
   font-size: 40px;
   font-weight: 400;
   text-align: center;
+  padding: 1% 6.3%;
+  margin-top: 30%;
 }
 
 .content {
   margin-top: 50px;
-  margin-bottom: 8%;
-  max-width: 1170px;
   display: flex;
   flex-direction: column;
-  padding-left: 20px;
 }
 
 .project img {
@@ -165,11 +164,12 @@ li {
   background: linear-gradient(180.45deg, rgba(38, 38, 38, 0.103) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url("ressources/Ilustration/Prj1.png");
   background-size: cover;
   background-position: center;
-  padding: 50px 6.4%;
-  display: grid;
+  padding: 21% 3%;
   position: relative;
-  margin-top: 50px;
+  margin-top: 10%;
   margin-bottom: 8%;
+  height: 386px;
+  width: 327px;
 }
 
 .head-description1 {
@@ -178,6 +178,7 @@ li {
   font-size: 32px;
   font-weight: 400;
   text-align: left;
+  margin-bottom: 3%;
 }
 
 .project-description1 {

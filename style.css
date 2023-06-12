@@ -306,14 +306,14 @@ li {
   border-radius: 50%;
 }
 
-.titleFooter{
+.titleFooter {
   font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 32px;
   margin: 15% 5%;
   line-height: 44px;
   text-align: center;
-  color: #172B4D;
+  color: #172b4d;
 }
 
 .form {
@@ -325,12 +325,12 @@ li {
   margin-top: 20px;
   width: 100%;
   padding: 20px 20px 10px 20px;
-  margin-right:15px;
+  margin-right: 15px;
   border: none;
   background-color: transparent;
   resize: none;
   outline: none;
-  border-bottom: 1px solid #DBD8D7;
+  border-bottom: 1px solid #dbd8d7;
 }
 
 .form-textarea {
@@ -338,12 +338,12 @@ li {
   padding: 10px 0 100px 20px;
   margin-top: 20px;
   border: none;
-  background-color: #FBF8F7;;
+  background-color: #fbf8f7;
   resize: none;
   outline: none;
 }
 
-.botn{
+.botn {
   position: relative;
   left: 50%;
   transform: translate(-50%, -50%);

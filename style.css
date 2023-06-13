@@ -161,11 +161,9 @@ li {
 }
 
 .content1 {
-  background: linear-gradient(
-      180.45deg,
+  background: linear-gradient(180.45deg,
       rgba(38, 38, 38, 0.103) 0.75%,
-      rgba(38, 38, 38, 0.9) 61.94%
-    ),
+      rgba(38, 38, 38, 0.9) 61.94%),
     url("ressources/Ilustration/Prj1.png");
   background-size: cover;
   background-position: center;
@@ -331,7 +329,6 @@ li {
 }
 
 .form-list {
-  /* margin-top: 20px; */
   width: 100%;
   padding: 20px 20px 10px 20px;
   margin-right: 15px;
@@ -345,7 +342,6 @@ li {
 .form-textarea {
   width: 100%;
   padding: 10px 0 100px 20px;
-  /* margin-top: 20px; */
   border: none;
   background-color: #fbf8f7;
   resize: none;
@@ -354,8 +350,6 @@ li {
 
 .botn {
   position: relative;
-  /* left: 50%; */
-  /* transform: translate(-50%, -50%); */
   padding: 12px;
   background: #ff6a00;
   border: none;

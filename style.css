@@ -161,10 +161,7 @@ li {
 }
 
 .content1 {
-  background: linear-gradient(180.45deg,
-      rgba(38, 38, 38, 0.103) 0.75%,
-      rgba(38, 38, 38, 0.9) 61.94%),
-    url("ressources/Ilustration/Prj1.png");
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0.103) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url("ressources/Ilustration/Prj1.png");
   background-size: cover;
   background-position: center;
   padding: 21% 3%;
@@ -310,7 +307,7 @@ li {
 }
 
 .titleFooter {
-  font-family: "Inter", normal;
+  font-family: "Inter", serif;
   font-weight: 700;
   font-size: 32px;
   margin: 15% 5%;
@@ -354,7 +351,7 @@ li {
   background: #ff6a00;
   border: none;
   margin-bottom: 20%;
-  font-family: "Inter", normal;
+  font-family: "inter",serif ;
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;

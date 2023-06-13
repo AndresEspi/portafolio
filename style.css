@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@100&family=Poppins:wght@100&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@100;700&family=Poppins:wght@400&family=Roboto:wght@700&display=swap');
 
 * {
   box-sizing: border-box;
@@ -307,7 +307,7 @@ li {
 }
 
 .titleFooter {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', normal;
   font-weight: 700;
   font-size: 32px;
   margin: 15% 5%;
@@ -346,12 +346,12 @@ li {
 .botn {
   position: relative;
   left: 50%;
-  transform: translate(-50%, -50%);
+  /* transform: translate(-50%, -50%); */
   padding: 12px;
   background: #ff6a00;
   border: none;
   margin-bottom: 20%;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', normal;
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;

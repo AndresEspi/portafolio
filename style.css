@@ -253,19 +253,19 @@ li {
   margin-left: 20px;
 }
 
-.about-button:active{
+.about-button:active {
   background-color: #ff6b00;
   color: #fff;
   border-color: #ff6b00;
 }
 
-.about-button:hover{
+.about-button:hover {
   background-color: lightgoldenrodyellow;
   color: #ff6b00;
   border-color: #ff6b00;
 }
 
-.about-button:disabled{
+.about-button:disabled {
   background-color: #fff;
   color: grey;
   border-color: #fff;
@@ -378,19 +378,19 @@ li {
   width: 131px;
 }
 
-.botn:active{
+.botn:active {
   background-color: #ff6b00;
   color: #fff;
   border-color: #ff6b00;
 }
 
-.botn:hover{
+.botn:hover  {
   background-color: lightgoldenrodyellow;
   color: #ff6b00;
   border-color: #ff6b00;
 }
 
-.botn:disabled{
+.botn:disabled {
   background-color: #fff;
   color: grey;
   border-color: #fff;

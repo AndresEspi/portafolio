@@ -249,8 +249,26 @@ li {
   height: 40px;
   width: 130px;
   justify-content: center;
-  border: none;
+  border-color: #ff6b00;
   margin-left: 20px;
+}
+
+.about-button:active{
+  background-color: #ff6b00;
+  color: #fff;
+  border-color: #ff6b00;
+}
+
+.about-button:hover{
+  background-color: lightgoldenrodyellow;
+  color: #ff6b00;
+  border-color: #ff6b00;
+}
+
+.about-button:disabled{
+  background-color: #fff;
+  color: grey;
+  border-color: #fff;
 }
 
 .about-ilustration {
@@ -349,7 +367,7 @@ li {
   position: relative;
   padding: 12px;
   background: #ff6a00;
-  border: none;
+  border-color: #ff6a00;
   margin-bottom: 20%;
   font-family: "inter", serif;
   font-weight: 700;
@@ -358,6 +376,24 @@ li {
   text-align: center;
   color: white;
   width: 131px;
+}
+
+.botn:active{
+  background-color: #ff6b00;
+  color: #fff;
+  border-color: #ff6b00;
+}
+
+.botn:hover{
+  background-color: lightgoldenrodyellow;
+  color: #ff6b00;
+  border-color: #ff6b00;
+}
+
+.botn:disabled{
+  background-color: #fff;
+  color: grey;
+  border-color: #fff;
 }
 
 .icons1 {

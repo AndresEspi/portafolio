@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@100&family=Poppins:wght@100&family=Roboto:wght@100&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@100;700&family=Poppins:wght@400&family=Roboto:wght@700&display=swap");
 
 * {
   box-sizing: border-box;
@@ -44,7 +44,7 @@
 
 .Hey-there {
   letter-spacing: 0.37px;
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-weight: 400;
   font-size: 56px;
   color: #ff6b00;
@@ -52,7 +52,7 @@
 }
 
 .i-m {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 24px;
   line-height: 32px;
@@ -63,7 +63,7 @@
 }
 
 .description {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -91,7 +91,7 @@ li {
 }
 
 .head-works {
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-size: 40px;
   font-weight: 400;
   text-align: center;
@@ -115,7 +115,7 @@ li {
 
 .head-description {
   color: #091e42;
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-size: 32px;
   font-weight: 400;
   text-align: left;
@@ -123,7 +123,7 @@ li {
 
 .project-description {
   color: #091e42;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -131,7 +131,7 @@ li {
 }
 
 .programming-language {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   display: flex;
   flex-direction: row;
   justify-content: start;
@@ -139,7 +139,7 @@ li {
 }
 
 .item {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 500;
   font-size: 15px;
   color: #091e42;
@@ -149,7 +149,7 @@ li {
 }
 
 .button-project {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: bold;
   font-size: 17px;
   background-color: #ff6b00;
@@ -174,7 +174,7 @@ li {
 
 .head-description1 {
   color: #fff;
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-size: 32px;
   font-weight: 400;
   text-align: left;
@@ -183,7 +183,7 @@ li {
 
 .project-description1 {
   color: #fff;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -191,7 +191,7 @@ li {
 }
 
 .item1 {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   background-color: rgba(200, 200, 200, 0.445);
   font-weight: 500;
   font-size: 15px;
@@ -201,7 +201,7 @@ li {
 }
 
 .button-project1 {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: bold;
   font-size: 17px;
   background-color: #ff6b00;
@@ -226,7 +226,7 @@ li {
 }
 
 .about-title {
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-size: 72px;
   margin: 100px auto 0 20px;
   color: #f55800;
@@ -234,7 +234,7 @@ li {
 
 .about-description {
   font-size: 16px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   line-height: 24px;
   margin: 20px;
@@ -249,8 +249,26 @@ li {
   height: 40px;
   width: 130px;
   justify-content: center;
-  border: none;
+  border-color: #ff6b00;
   margin-left: 20px;
+}
+
+.about-button:active {
+  background-color: #ff6b00;
+  color: #fff;
+  border-color: #ff6b00;
+}
+
+.about-button:hover {
+  background-color: lightgoldenrodyellow;
+  color: #ff6b00;
+  border-color: #ff6b00;
+}
+
+.about-button:disabled {
+  background-color: #fff;
+  color: grey;
+  border-color: #fff;
 }
 
 .about-ilustration {
@@ -267,13 +285,13 @@ li {
   font-size: 32px;
   margin-top: 70px;
   color: #fff;
-  font-weight: 400;
-  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
 }
 
 .skill {
   color: #fff;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-weight: normal;
   font-size: 22px;
@@ -304,4 +322,86 @@ li {
   background-color: #ff6b00;
   display: inline-block;
   border-radius: 50%;
+}
+
+.titleFooter {
+  font-family: "Inter", serif;
+  font-weight: 700;
+  font-size: 32px;
+  margin: 15% 5%;
+  line-height: 44px;
+  text-align: center;
+  color: #172b4d;
+}
+
+.form {
+  min-width: 300px;
+  margin: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.form-list {
+  width: 100%;
+  padding: 20px 20px 10px 20px;
+  margin-right: 15px;
+  border: none;
+  background-color: transparent;
+  resize: none;
+  outline: none;
+  border-bottom: 1px solid #dbd8d7;
+}
+
+.form-textarea {
+  width: 100%;
+  padding: 10px 0 100px 20px;
+  border: none;
+  background-color: #fbf8f7;
+  resize: none;
+  outline: none;
+}
+
+.botn {
+  position: relative;
+  padding: 12px;
+  background: #ff6a00;
+  border-color: #ff6a00;
+  margin-bottom: 20%;
+  font-family: "inter", serif;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  color: white;
+  width: 131px;
+}
+
+.botn:active {
+  background-color: #ff6b00;
+  color: #fff;
+  border-color: #ff6b00;
+}
+
+.botn:hover {
+  background-color: lightgoldenrodyellow;
+  color: #ff6b00;
+  border-color: #ff6b00;
+}
+
+.botn:disabled {
+  background-color: #fff;
+  color: grey;
+  border-color: #fff;
+}
+
+.icons1 {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+}
+
+.icon1 {
+  margin: 0.5px;
 }

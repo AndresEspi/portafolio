@@ -366,6 +366,30 @@ li {
     height: 386px;
     width: 327px;
   }
+  
+  .content2 {
+    background: linear-gradient(180.45deg, rgba(38, 38, 38, 0.103) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url("ressources/Ilustration/Pr2.png");
+    background-size: cover;
+    background-position: center;
+    padding: 21% 3%;
+    position: relative;
+    margin-top: 10%;
+    margin-bottom: 8%;
+    height: 386px;
+    width: 327px;
+  }
+  
+  .content3 {
+    background: linear-gradient(180.45deg, rgba(38, 38, 38, 0.103) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url("ressources/Ilustration/pr3.png");
+    background-size: cover;
+    background-position: center;
+    padding: 21% 3%;
+    position: relative;
+    margin-top: 10%;
+    margin-bottom: 8%;
+    height: 386px;
+    width: 327px;
+  }
 
   .about-me {
     background-color: #1c1a19;
@@ -515,6 +539,32 @@ li {
   .content1 {
     display: flex;
     background: linear-gradient(180.45deg, rgba(38, 38, 38, 0.103) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url("ressources/Ilustration/Prj1.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 369px;
+    height: 435px;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 1.5%;
+  }
+
+  .content2 {
+    display: flex;
+    background: linear-gradient(180.45deg, rgba(38, 38, 38, 0.103) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url("ressources/Ilustration/Pr2.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 369px;
+    height: 435px;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 1.5%;
+  }
+
+  .content3 {
+    display: flex;
+    background: linear-gradient(180.45deg, rgba(38, 38, 38, 0.103) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url("ressources/Ilustration/Pr3.png");
     background-size: cover;
     background-position: center;
     position: relative;

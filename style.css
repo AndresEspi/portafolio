@@ -209,7 +209,7 @@ li {
   margin: 20px 0;
 }
 
-.skills-list{
+.skills-list {
   display: flex;
   flex-direction: column;
   justify-content: start;
@@ -514,7 +514,6 @@ li {
     font-size: 40px;
     font-weight: 400;
     padding: 1% 6.3%;
-    margin-top: 5%;
     color: #091e42;
     margin: 15vh 5vh;
   }
@@ -601,7 +600,7 @@ li {
     padding: 5%;
   }
 
-  .about-me-text{
+  .about-me-text {
     margin-left: 30px;
   }
 
@@ -613,7 +612,6 @@ li {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
   }
 
   .skills {
@@ -636,7 +634,7 @@ li {
     margin-bottom: 10%;
   }
 
-  .skills-title-head{
+  .skills-title-head {
     font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 700;

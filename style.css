@@ -16,32 +16,6 @@
   height: 60px;
 }
 
-.main-class {
-  height: 560px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  padding: 0 20px;
-  background-color: #1c1a19;
-  background-image: url("./ressources/Ilustration/illustration-mobile.png");
-  background-repeat: no-repeat;
-  background-position: right bottom;
-}
-
-.logo {
-  padding: 20px;
-  color: #fff;
-  font-style: normal;
-  text-decoration: none;
-}
-
-.button {
-  display: flex;
-  align-items: flex-start;
-  padding: 25px;
-}
-
 .Hey-there {
   letter-spacing: 0.37px;
   font-family: "Crete Round", serif;
@@ -62,19 +36,6 @@
   color: #fff5e1;
 }
 
-.description {
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: #fff;
-  width: 80%;
-}
-
-.icons {
-  display: flex;
-}
-
 .icon {
   margin: 0.5px;
   filter: grayscale(100%) brightness(200%);
@@ -82,35 +43,6 @@
 
 li {
   list-style: none;
-}
-
-.works {
-  display: grid;
-  margin: auto;
-  width: 327px;
-}
-
-.head-works {
-  font-family: "Crete Round", serif;
-  font-size: 40px;
-  font-weight: 400;
-  text-align: center;
-  padding: 1% 6.3%;
-  margin-top: 30%;
-}
-
-.content {
-  margin-top: 50px;
-  display: flex;
-  flex-direction: column;
-}
-
-.project img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 8%;
-  width: 300px;
 }
 
 .head-description {
@@ -157,19 +89,25 @@ li {
   height: 48px;
   width: 124px;
   justify-content: center;
-  border: none;
+  border-color: #ff6b00;
 }
 
-.content1 {
-  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0.103) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url("ressources/Ilustration/Prj1.png");
-  background-size: cover;
-  background-position: center;
-  padding: 21% 3%;
-  position: relative;
-  margin-top: 10%;
-  margin-bottom: 8%;
-  height: 386px;
-  width: 327px;
+.abutton-project {
+  background-color: #ff6b00;
+  color: #fff;
+  border-color: #ff6b00;
+}
+
+.button-project:hover {
+  background-color: lightgoldenrodyellow;
+  color: #ff6b00;
+  border-color: #ff6b00;
+}
+
+.button-project:disabled {
+  background-color: #fff;
+  color: grey;
+  border-color: #fff;
 }
 
 .head-description1 {
@@ -215,16 +153,6 @@ li {
   border: none;
 }
 
-.about-me {
-  background-color: #1c1a19;
-  flex-direction: column;
-  padding: 100px 0.1%;
-  background-image: url("ressources/Ilustration/illustration-mobile1.png");
-  background-repeat: no-repeat;
-  background-position: right bottom;
-  padding-bottom: 47%;
-}
-
 .about-title {
   font-family: "Crete Round", serif;
   font-size: 72px;
@@ -233,6 +161,7 @@ li {
 }
 
 .about-description {
+  width: 350px;
   font-size: 16px;
   font-family: "Inter", sans-serif;
   font-weight: 400;
@@ -271,35 +200,24 @@ li {
   border-color: #fff;
 }
 
-.about-ilustration {
-  text-align: right;
-}
-
-.skills {
-  text-align: center;
-  background-color: #1c1a19;
-  padding: 100px 6.4%;
-}
-
-.skills-title {
-  font-size: 32px;
-  margin-top: 70px;
-  color: #fff;
-  font-weight: 700;
-  font-family: "Inter", sans-serif;
-}
-
 .skill {
   color: #fff;
   font-family: "Inter", sans-serif;
   font-weight: 400;
   font-weight: normal;
   font-size: 22px;
-  margin: 20px auto;
+  margin: 20px 0;
+}
+
+.skills-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
 }
 
 .rhombus {
-  margin-right: 3%;
+  margin: 7px;
   height: 1.5rem;
   width: 1.5rem;
   background-color: #ff6b00;
@@ -308,7 +226,7 @@ li {
 }
 
 .square {
-  margin-right: 3%;
+  margin: 7px;
   height: 1.5rem;
   width: 1.5rem;
   background-color: #ff6b00;
@@ -316,31 +234,29 @@ li {
 }
 
 .circle {
-  margin-right: 3%;
+  margin: 7px;
   height: 1.5rem;
   width: 1.5rem;
   background-color: #ff6b00;
-  display: inline-block;
   border-radius: 50%;
 }
 
-.titleFooter {
-  font-family: "Inter", serif;
-  font-weight: 700;
-  font-size: 32px;
-  margin: 15% 5%;
-  line-height: 44px;
-  text-align: center;
-  color: #172b4d;
+.botn:active {
+  background-color: #ff6b00;
+  color: #fff;
+  border-color: #ff6b00;
 }
 
-.form {
-  min-width: 300px;
-  margin: 10px 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
+.botn:hover {
+  background-color: lightgoldenrodyellow;
+  color: #ff6b00;
+  border-color: #ff6b00;
+}
+
+.botn:disabled {
+  background-color: #fff;
+  color: grey;
+  border-color: #fff;
 }
 
 .form-list {
@@ -363,45 +279,406 @@ li {
   outline: none;
 }
 
-.botn {
-  position: relative;
-  padding: 12px;
-  background: #ff6a00;
-  border-color: #ff6a00;
-  margin-bottom: 20%;
-  font-family: "inter", serif;
-  font-weight: 700;
-  font-size: 17px;
-  line-height: 24px;
-  text-align: center;
-  color: white;
-  width: 131px;
-}
-
-.botn:active {
-  background-color: #ff6b00;
-  color: #fff;
-  border-color: #ff6b00;
-}
-
-.botn:hover {
-  background-color: lightgoldenrodyellow;
-  color: #ff6b00;
-  border-color: #ff6b00;
-}
-
-.botn:disabled {
-  background-color: #fff;
-  color: grey;
-  border-color: #fff;
-}
-
 .icons1 {
-  margin-top: 5%;
+  margin: 2% 2%;
   display: flex;
   justify-content: center;
 }
 
 .icon1 {
   margin: 0.5px;
+}
+
+@media screen and (max-width: 767px) {
+  .logo {
+    padding: 20px;
+    color: #fff;
+    font-style: normal;
+    text-decoration: none;
+  }
+
+  .button {
+    display: block;
+    padding: 20px;
+  }
+
+  .options {
+    display: none;
+  }
+
+  .main-class {
+    height: 560px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 20px;
+    background-color: #1c1a19;
+    background-image: url("./ressources/Ilustration/illustration-mobile.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+  }
+
+  .description {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    width: 80%;
+  }
+
+  .icons {
+    display: flex;
+  }
+
+  .works {
+    display: grid;
+    margin: auto;
+    width: 327px;
+  }
+
+  .head-works {
+    font-family: "Crete Round", serif;
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+    padding: 1% 6.3%;
+    margin-top: 30%;
+  }
+
+  .content {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .project img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8%;
+    width: 300px;
+  }
+
+  .content1 {
+    background: linear-gradient(180.45deg, rgba(38, 38, 38, 0.103) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url("ressources/Ilustration/Prj1.png");
+    background-size: cover;
+    background-position: center;
+    padding: 21% 3%;
+    position: relative;
+    margin-top: 10%;
+    margin-bottom: 8%;
+    height: 386px;
+    width: 327px;
+  }
+
+  .content2 {
+    background: linear-gradient(180.45deg, rgba(38, 38, 38, 0.103) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url("ressources/Ilustration/Pr2.png");
+    background-size: cover;
+    background-position: center;
+    padding: 21% 3%;
+    position: relative;
+    margin-top: 10%;
+    margin-bottom: 8%;
+    height: 386px;
+    width: 327px;
+  }
+
+  .content3 {
+    background: linear-gradient(180.45deg, rgba(38, 38, 38, 0.103) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url("ressources/Ilustration/pr3.png");
+    background-size: cover;
+    background-position: center;
+    padding: 21% 3%;
+    position: relative;
+    margin-top: 10%;
+    margin-bottom: 8%;
+    height: 386px;
+    width: 327px;
+  }
+
+  .about-me {
+    background-color: #1c1a19;
+    flex-direction: column;
+    padding: 0.1%;
+    background-image: url("ressources/Ilustration/illustration-mobile1.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    padding-bottom: 47%;
+  }
+
+  .skills {
+    text-align: center;
+    background-color: #1c1a19;
+    padding: 100px 6.4%;
+  }
+
+  .skills-title {
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    margin-top: 70px;
+    color: #fff;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+  }
+
+  .titleFooter {
+    font-family: "Inter", serif;
+    font-weight: 700;
+    font-size: 32px;
+    margin: 15% 5%;
+    line-height: 44px;
+    text-align: center;
+    color: #172b4d;
+  }
+
+  .form {
+    min-width: 300px;
+    margin: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .botn {
+    padding: 12px;
+    background: #ff6b00;
+    border-color: #ff6b00;
+    font-family: "inter", serif;
+    font-weight: 700;
+    font-size: 17px;
+    color: white;
+    margin-bottom: 30%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .logo {
+    padding: 20px;
+    color: #fff;
+    font-style: normal;
+    text-decoration: none;
+    margin-left: 10%;
+  }
+
+  .button {
+    display: none;
+  }
+
+  .options {
+    display: flex;
+    align-items: center;
+    margin-right: 10%;
+  }
+
+  .po {
+    padding: 20px;
+    color: #fff;
+    font-style: normal;
+    text-decoration: none;
+  }
+
+  .main-class {
+    height: 560px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 40vh 20px;
+    background-color: #1c1a19;
+    background-image: url("./ressources/Ilustration/Illustration-Desktop.png");
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+
+  .description {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    width: 50%;
+  }
+
+  .icons {
+    margin: 2%;
+  }
+
+  .head-works {
+    display: grid;
+    grid-template-columns: 1.5fr 2.5fr;
+    align-items: center;
+    font-family: "Crete Round", serif;
+    font-size: 40px;
+    font-weight: 400;
+    padding: 1% 6.3%;
+    color: #091e42;
+    margin: 15vh 5vh;
+  }
+
+  .works {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 0 15vh;
+    margin-bottom: 40px;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .description-info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .project img {
+    display: flex;
+    width: 100%;
+  }
+
+  .content1-0 {
+    display: flex;
+    background: url("ressources/Ilustration/Prj1.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 369px;
+  }
+
+  .content1 {
+    display: flex;
+    background: linear-gradient(180.45deg, rgba(38, 38, 38, 0.103) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url("ressources/Ilustration/Prj1.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 369px;
+    height: 435px;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 1.5%;
+  }
+
+  .content2 {
+    display: flex;
+    background: linear-gradient(180.45deg, rgba(38, 38, 38, 0.103) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url("ressources/Ilustration/Pr2.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 369px;
+    height: 435px;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 1.5%;
+  }
+
+  .content3 {
+    display: flex;
+    background: linear-gradient(180.45deg, rgba(38, 38, 38, 0.103) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url("ressources/Ilustration/Pr3.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 369px;
+    height: 435px;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 1.5%;
+  }
+
+  .about-me {
+    background-color: #1c1a19;
+    flex-direction: column;
+    background-image: url("ressources/Ilustration/illustration-about-desktop.png");
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: 40%;
+    padding: 5%;
+  }
+
+  .about-me-text {
+    margin-left: 30px;
+  }
+
+  .line {
+    width: 100%;
+  }
+
+  .skills--title-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .skills {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #1c1a19;
+    padding: 100px 6.4%;
+  }
+
+  .skills-title {
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    color: #fff;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 10%;
+  }
+
+  .skills-title-head {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    align-items: center;
+    margin-left: 10px;
+  }
+
+  .footer {
+    display: flex;
+  }
+
+  .titleFooter {
+    font-family: "Inter", serif;
+    font-weight: 700;
+    font-size: 40px;
+    width: 40vh;
+    line-height: 44px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 50px 0 135px;
+    color: #262626;
+  }
+
+  .form {
+    width: 80vh;
+    min-width: 300px;
+    margin: 135px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 20px;
+  }
+
+  .botn {
+    background: #ff6b00;
+    border-color: #ff6b00;
+    font-family: "inter", serif;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    height: 40px;
+    width: 130px;
+  }
 }

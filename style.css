@@ -227,7 +227,6 @@ li {
 }
 
 .circle {
-  margin-left: 100px;
   margin: 7px;
   height: 1.5rem;
   width: 1.5rem;
@@ -461,13 +460,13 @@ li {
     display: none;
   }
 
-  .options{
+  .options {
     display: flex;
     align-items: center;
     margin-right: 10%;
   }
 
-  .po{
+  .po {
     padding: 20px;
     color: #fff;
     font-style: normal;
@@ -585,11 +584,11 @@ li {
     padding: 5%;
   }
 
-  .line{
+  .line {
     width: 90%;
   }
 
-  .skills--title-container{
+  .skills--title-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -601,7 +600,6 @@ li {
     text-align: center;
     background-color: #1c1a19;
     padding: 100px 6.4%;
-    
   }
 
   .skills-title {
@@ -616,7 +614,7 @@ li {
     margin-bottom: 10%;
   }
 
-  .footer{
+  .footer {
     display: flex;
   }
 

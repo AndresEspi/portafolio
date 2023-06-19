@@ -121,7 +121,7 @@ li {
 
 .content3 {
   display: flex;
-  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0.103) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url("ressources/Ilustration/Pr3.png");
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0.103) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(".ressources/Ilustration/Pr3.png");
   background-size: cover;
   background-position: center;
   position: relative;

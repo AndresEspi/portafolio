@@ -5,6 +5,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Clone the repository](#Clone-the-repository)
   - [Setup](#setup)
@@ -34,6 +35,12 @@
 - **Version control**
 - **Branching and merging**
 - **Personal Projects**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [See Live Demo]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -106,6 +113,7 @@ I would like to thank .....
 - **My standup teammates**
 - **My coding partners**
 - **My morning session teammates**
+- **My Standup session teammates**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

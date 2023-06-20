@@ -91,8 +91,16 @@ li {
   margin-bottom: 30px;
 }
 
+.content-text {
+  position: absolute;
+  bottom: 0;
+  padding: 3%;
+  transition: all ease 300ms;
+}
+
 .content1 {
   display: flex;
+  flex-direction: column;
   background: linear-gradient(180.45deg, rgba(38, 38, 38, 0.103) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url("ressources/Ilustration/Prj1.png");
   background-size: cover;
   background-position: center;
@@ -101,12 +109,55 @@ li {
   height: 435px;
   justify-content: flex-start;
   align-items: flex-end;
-  padding: 1.5%;
-  margin-bottom: 30px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.button-project2 {
+  position: absolute;
+  bottom: -50px;
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  background-color: #ff6b00;
+  color: #fff;
+  width: 100%;
+  height: 48px;
+  border-color: #ff6b00;
+  transition: all ease 300ms;
+}
+
+.button-project2:active {
+  background-color: #ff6b00;
+  color: #fff;
+  border-color: #ff6b00;
+}
+
+.button-project2:hover {
+  background-color: lightgoldenrodyellow;
+  color: #ff6b00;
+  border-color: #ff6b00;
+}
+
+.button-project2:disabled {
+  background-color: #fff;
+  color: grey;
+  border-color: #fff;
+}
+
+.content1:hover .content-text {
+  bottom: 50px;
+}
+
+.content1:hover .button-project2 {
+  opacity: 1;
+  bottom: 0;
 }
 
 .content2 {
   display: flex;
+  flex-direction: column;
   background: linear-gradient(180.45deg, rgba(38, 38, 38, 0.103) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url("ressources/Ilustration/Pr2.png");
   background-size: cover;
   background-position: center;
@@ -115,13 +166,23 @@ li {
   height: 435px;
   justify-content: flex-start;
   align-items: flex-end;
-  padding: 1.5%;
-  margin-bottom: 30px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.content2:hover .content-text {
+  bottom: 50px;
+}
+
+.content2:hover .button-project2 {
+  opacity: 1;
+  bottom: 0;
 }
 
 .content3 {
   display: flex;
-  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0.103) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(".ressources/Ilustration/Pr3.png");
+  flex-direction: column;
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0.103) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url("ressources/Ilustration/Pr3.png");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -129,8 +190,17 @@ li {
   height: 435px;
   justify-content: flex-start;
   align-items: flex-end;
-  padding: 1.5%;
-  margin-bottom: 30px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.content3:hover .content-text {
+  bottom: 50px;
+}
+
+.content3:hover .button-project2 {
+  opacity: 1;
+  bottom: 0;
 }
 
 .button-project {
@@ -203,7 +273,25 @@ li {
   width: 100%;
   height: 48px;
   justify-content: center;
-  border: none;
+  border-color: #ff6b00;
+}
+
+.button-project1:active {
+  background-color: #ff6b00;
+  color: #fff;
+  border-color: #ff6b00;
+}
+
+.button-project1:hover {
+  background-color: lightgoldenrodyellow;
+  color: #ff6b00;
+  border-color: #ff6b00;
+}
+
+.button-project1:disabled {
+  background-color: #fff;
+  color: grey;
+  border-color: #fff;
 }
 
 .about-title {
@@ -391,7 +479,7 @@ li {
     font-weight: 400;
     text-align: center;
     padding: 1% 6.3%;
-    margin-top: 30%;
+    margin-top: 20%;
   }
 
   .content {
@@ -409,19 +497,21 @@ li {
   }
 
   .about-me {
+    display: flex;
     background-color: #1c1a19;
     flex-direction: column;
-    padding: 0.1%;
     background-image: url("ressources/Ilustration/illustration-mobile1.png");
     background-repeat: no-repeat;
     background-position: right bottom;
-    padding-bottom: 47%;
+    padding-bottom: 45%;
+    align-items: center;
   }
 
   .skills {
     text-align: center;
     background-color: #1c1a19;
-    padding: 100px 6.4%;
+    padding: 0 6.4%;
+    padding-bottom: 15%;
   }
 
   .skills-list {
@@ -504,11 +594,12 @@ li {
     justify-content: left;
     align-items: center;
     flex-direction: row-reverse;
-    padding: 40vh 20px;
+    padding: 20px;
     background-color: #1c1a19;
     background-image: url("./ressources/Ilustration/Illustration-Desktop.png");
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: center right;
+    background-size: 55%;
   }
 
   .description {
@@ -533,15 +624,15 @@ li {
     font-weight: 400;
     padding: 1% 6.3%;
     color: #091e42;
-    margin: 15vh 5vh;
+    margin: 10vh 5vh;
   }
 
   .works {
     display: flex;
+    justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
-    margin: 0 15vh;
-    margin-bottom: 40px;
+    margin: 0 10vh;
   }
 
   .content {

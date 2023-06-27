@@ -460,26 +460,23 @@ li {
     display: none;
   }
 
-  .options a {
+  .po {
     color: #FFF5E1;
     font-size: 32px;
-    font-family: Inter;
-    font-weight: 700;
-    line-height: 44px;
-    position: relative;
     text-decoration: none;
   }
   
-  .options a::after {
+  .po::after {
     content: "";
-    display: inline-block;
+    display: flex;
+    margin-bottom: 6%;
+    margin-top: 3%;
     width: 100%;
     height: 1px;
     background-color: #ccc;
-    margin: 0px;
   }
   
-  .options a:hover {
+  .po:hover {
     text-decoration: underline;
   }
 
@@ -494,7 +491,7 @@ li {
   }
 
   .menuDisplay{
-    margin: 10%;
+    margin: 20% 10% 0;
   }
 
   .options.active {

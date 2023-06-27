@@ -4,7 +4,7 @@ const menuItems = document.querySelector('.options');
 const closeButton = document.querySelector('.close-button');
 
 // Agregar evento de clic al botón del menú
-menuToggle.addEventListener('click', function() {
+menuToggle.addEventListener('click', () => {
   // Alternar la clase 'active' para mostrar/ocultar el menú
   menuItems.classList.toggle('active');
 
@@ -21,11 +21,10 @@ menuToggle.addEventListener('click', function() {
 });
 
 // Agregar evento de clic al botón de salida
-closeButton.addEventListener('click', function() {
+closeButton.addEventListener('click', () => {
   // Ocultar el menú al hacer clic en el botón de salida
   menuItems.classList.remove('active');
   // Restaurar el alto del cuerpo al valor predeterminado
   document.body.style.height = '';
   document.body.style.overflow = '';
 });
-

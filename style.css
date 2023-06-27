@@ -443,12 +443,12 @@ li {
     height: 60px;
     z-index: 9999;
   }
-  
+
   .button {
     display: block;
     padding: 20px;
   }
-  
+
   .options {
     position: fixed;
     top: 0;
@@ -459,24 +459,24 @@ li {
     padding: 10px;
     display: none;
   }
-  
+
   .options li {
     margin-bottom: 10px;
   }
-  
+
   .options a {
     color: #000;
     text-decoration: none;
   }
-  
+
   .options a:hover {
     text-decoration: underline;
-  }  
+  }
 
   .options.active {
     display: block;
   }
-  
+
 
   .main-class {
     height: 560px;

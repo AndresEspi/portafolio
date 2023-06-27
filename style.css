@@ -461,11 +461,11 @@ li {
   }
 
   .po {
-    color: #FFF5E1;
+    color: #fff5e1;
     font-size: 32px;
     text-decoration: none;
   }
-  
+
   .po::after {
     content: "";
     display: flex;
@@ -474,10 +474,6 @@ li {
     width: 100%;
     height: 1px;
     background-color: #ccc;
-  }
-  
-  .po:hover {
-    text-decoration: underline;
   }
 
   .close-button {
@@ -490,7 +486,7 @@ li {
     border: none;
   }
 
-  .menuDisplay{
+  .menuDisplay {
     margin: 20% 10% 0;
   }
 
@@ -648,11 +644,11 @@ li {
     text-decoration: none;
   }
 
-  .close-button{
+  .close-button {
     display: none;
   }
 
-  .menuDisplay{
+  .menuDisplay {
     display: flex;
     flex-direction: row;
   }

@@ -431,14 +431,52 @@ li {
     text-decoration: none;
   }
 
+  .toolbar {
+    background: #3c3a39;
+    font-family: "Inter", Georgia, "Times New Roman", Times, serif;
+    font-weight: 700;
+    font-size: 18px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    z-index: 9999;
+  }
+  
   .button {
     display: block;
     padding: 20px;
   }
-
+  
   .options {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #3c3a39;
+    padding: 10px;
     display: none;
   }
+  
+  .options li {
+    margin-bottom: 10px;
+  }
+  
+  .options a {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .options a:hover {
+    text-decoration: underline;
+  }  
+
+  .options.active {
+    display: block;
+  }
+  
 
   .main-class {
     height: 560px;

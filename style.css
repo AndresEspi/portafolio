@@ -25,10 +25,6 @@
   margin: 10px 0;
 }
 
-ul.menuDisplay li:last-child {
-  display: none;
-}
-
 .i-m {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
@@ -461,6 +457,10 @@ li {
     height: 100%;
     background-color: #3c3a39;
     padding: 10px;
+    display: none;
+  }
+
+  ul.menuDisplay li:last-child {
     display: none;
   }
 

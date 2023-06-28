@@ -431,13 +431,73 @@ li {
     text-decoration: none;
   }
 
+  .toolbar {
+    background: #3c3a39;
+    font-family: "Inter", Georgia, "Times New Roman", Times, serif;
+    font-weight: 700;
+    font-size: 18px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    z-index: 9999;
+  }
+
   .button {
     display: block;
     padding: 20px;
   }
 
   .options {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #3c3a39;
+    padding: 10px;
     display: none;
+  }
+
+  ul.menuDisplay li:last-child {
+    display: none;
+  }
+
+  .po {
+    color: #fff5e1;
+    font-size: 32px;
+    text-decoration: none;
+  }
+
+  .po::after {
+    content: "";
+    display: flex;
+    margin-bottom: 6%;
+    margin-top: 3%;
+    width: 100%;
+    height: 1px;
+    background-color: #ccc;
+  }
+
+  .close-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    align-self: flex-start;
+    background-color: #3c3a39;
+    padding: 30px;
+    border: none;
+  }
+
+  .menuDisplay {
+    margin: 20% 10% 0;
+  }
+
+  .options.active {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
   }
 
   .main-class {
@@ -586,6 +646,15 @@ li {
     color: #fff;
     font-style: normal;
     text-decoration: none;
+  }
+
+  .close-button {
+    display: none;
+  }
+
+  .menuDisplay {
+    display: flex;
+    flex-direction: row;
   }
 
   .main-class {

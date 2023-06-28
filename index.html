@@ -15,14 +15,17 @@
                 My Logo
             </a>
             <a class="button" href="#">
-                <img src="/ressources/icons/menu-button.png" alt="Nav Button">
+                <img src="ressources/icons/menu-button.png" alt="Nav Button">
             </a>
             <ul class="options">
-                <li><a href="#" class="po">Portafolio</a></li>
-                <li><a href="#" class="po">About</a></li>
-                <li><a href="#" class="po">Contact</a></li>
-                <li><a href="#" class="po"><img src="ressources/icons/Icon-Mail.png" alt="Icon Mail"></a></li>
-            </ul>
+                <button class="close-button"><img src="ressources/icons/Icon - Cancel.png" alt=""></button>
+                <ul class="menuDisplay">
+                    <li><a href="#works" class="po">Portafolio</a></li>
+                    <li><a href="#about" class="po">About</a></li>
+                    <li><a href="#contact" class="po">Contact</a></li>
+                    <li><a href="#" class="po"><img src="ressources/icons/Icon-Mail.png" alt="Icon Mail"></a></li>
+                </ul>
+            </ul>    
         </nav>
     </header>
     <main class="main-class">
@@ -75,7 +78,7 @@
     <h2 class="head-works">My Recent Works
         <hr>
     </h2>
-    <section class="works">
+    <section id="works" class="works">
         <section class="content">
             <div class="project">
                 <img src="ressources/Ilustration/Prj.png" alt="Illustration Works">
@@ -178,7 +181,7 @@
             <button class="button-project2">See project</button>
         </section>
     </section>
-    <section class="about-me">
+    <section id="about" class="about-me">
         <section class="about-me-text">
             <h2 class="about-title">About Me</h2>
             <p class="about-description">Hello I’m a software developer! I can help you build a product ,
@@ -224,8 +227,8 @@
             </ul>
         </div>
     </section>
-    <footer>
-        <section class="footer">
+    <footer id="contact">
+        <section  class="footer">
             <h2 class="titleFooter">
                 I'm always interested in hearing about
                 new projects, so if you'd like to chat
@@ -269,6 +272,7 @@
             </ul>
         </section>
     </footer>
+    <script src="js/menu.js"></script>
 </body>
 
 </html>

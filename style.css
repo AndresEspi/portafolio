@@ -25,6 +25,10 @@
   margin: 10px 0;
 }
 
+ul.menuDisplay li:last-child {
+  display: none;
+}
+
 .i-m {
   font-family: "Roboto", sans-serif;
   font-weight: 700;

@@ -657,7 +657,7 @@ li {
   }
 
   .popup h2 {
-    color: var(--neutrals-n-800, #172B4D);
+    color: var(--neutrals-n-800, #172b4d);
     font-size: 32px;
     font-family: Roboto;
     text-align: left;
@@ -963,7 +963,7 @@ li {
   }
 
   .popup h2 {
-    color: var(--neutrals-n-800, #172B4D);
+    color: var(--neutrals-n-800, #172b4d);
     font-size: 32px;
     font-family: Roboto;
     text-align: left;

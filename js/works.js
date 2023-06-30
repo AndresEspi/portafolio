@@ -1,64 +1,64 @@
 const projects = [
   {
-    title: "Multy-Post Stories",
+    title: 'Multy-Post Stories',
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    languages: ["CSS", "HTML", "JavaScript", "Webpack"],
-    image: "ressources/Ilustration/Prj.png",
+    languages: ['CSS', 'HTML', 'JavaScript', 'Webpack'],
+    image: 'ressources/Ilustration/Prj.png',
   },
   {
-    title: "Profesional Art Printing Data",
+    title: 'Profesional Art Printing Data',
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    languages: ["CSS", "HTML", "Ruby", "Bootstrap"],
-    image: "ressources/Ilustration/Prj1.png",
+    languages: ['CSS', 'HTML', 'Ruby', 'Bootstrap'],
+    image: 'ressources/Ilustration/Prj1.png',
   },
   {
-    title: "Data Dashboard Healthcare",
+    title: 'Data Dashboard Healthcare',
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    languages: ["CSS", "HTML", "JavaScript", "Webpack"],
-    image: "ressources/Ilustration/Pr2.png",
+    languages: ['CSS', 'HTML', 'JavaScript', 'Webpack'],
+    image: 'ressources/Ilustration/Pr2.png',
   },
   {
-    title: "Website Portfolio",
+    title: 'Website Portfolio',
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    languages: ["CSS", "HTML", "JavaScript", "Webpack"],
-    image: "ressources/Ilustration/Pr3.png",
+    languages: ['CSS', 'HTML', 'JavaScript', 'Webpack'],
+    image: 'ressources/Ilustration/Pr3.png',
   },
   {
-    title: "Profesional Art Printing Data",
+    title: 'Profesional Art Printing Data',
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    languages: ["CSS", "HTML", "JavaScript", "Webpack"],
-    image: "ressources/Ilustration/Prj1.png",
+    languages: ['CSS', 'HTML', 'JavaScript', 'Webpack'],
+    image: 'ressources/Ilustration/Prj1.png',
   },
   {
-    title: "Data Dashboard Healthcare",
+    title: 'Data Dashboard Healthcare',
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    languages: ["CSS", "HTML", "JavaScript", "Webpack"],
-    image: "ressources/Ilustration/Pr2.png",
+    languages: ['CSS', 'HTML', 'JavaScript', 'Webpack'],
+    image: 'ressources/Ilustration/Pr2.png',
   },
   {
-    title: "Website Portfolio",
+    title: 'Website Portfolio',
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    languages: ["CSS", "HTML", "JavaScript", "Webpack"],
-    image: "ressources/Ilustration/Pr3.png",
+    languages: ['CSS', 'HTML', 'JavaScript', 'Webpack'],
+    image: 'ressources/Ilustration/Pr3.png',
   },
 ];
 
 let blurBackgroundElement = null;
 
-window.addEventListener("DOMContentLoaded", function () {
+window.addEventListener('DOMContentLoaded', () => {
   const buttons = document.querySelectorAll(
-    ".button-project, .button-project1, .button-project2"
+    '.button-project, .button-project1, .button-project2',
   );
 
-  buttons.forEach(function (button, index) {
-    button.addEventListener("click", function () {
+  buttons.forEach((button, index) => {
+    button.addEventListener('click', () => {
       const project = projects[index];
       showPopup(project);
       addBlurBackground();
@@ -66,8 +66,8 @@ window.addEventListener("DOMContentLoaded", function () {
   });
   function addBlurBackground() {
     if (!blurBackgroundElement) {
-      blurBackgroundElement = document.createElement("div");
-      blurBackgroundElement.classList.add("zzz");
+      blurBackgroundElement = document.createElement('div');
+      blurBackgroundElement.classList.add('zzz');
       document.body.appendChild(blurBackgroundElement);
     }
   }
@@ -79,70 +79,70 @@ window.addEventListener("DOMContentLoaded", function () {
     }
   }
   function showPopup(project) {
-    const existingPopups = document.querySelectorAll(".popup");
-    existingPopups.forEach(function (popup) {
+    const existingPopups = document.querySelectorAll('.popup');
+    existingPopups.forEach((popup) => {
       document.body.removeChild(popup);
     });
 
-    const popup = document.createElement("div");
-    popup.classList.add("popup");
+    const popup = document.createElement('div');
+    popup.classList.add('popup');
 
-    const container = document.createElement("div");
-    container.classList.add("container");
+    const container = document.createElement('div');
+    container.classList.add('container');
 
-    const leftContainer = document.createElement("div");
-    leftContainer.classList.add("left-container");
+    const leftContainer = document.createElement('div');
+    leftContainer.classList.add('left-container');
 
-    const rightContainer = document.createElement("div");
-    rightContainer.classList.add("right-container");
+    const rightContainer = document.createElement('div');
+    rightContainer.classList.add('right-container');
 
-    const title = document.createElement("h2");
+    const title = document.createElement('h2');
     title.textContent = project.title;
 
-    const languages = document.createElement("ul");
-    project.languages.forEach(function (language) {
-      const listItem = document.createElement("li");
+    const languages = document.createElement('ul');
+    project.languages.forEach((language) => {
+      const listItem = document.createElement('li');
       listItem.textContent = language;
       languages.appendChild(listItem);
     });
 
-    const image = document.createElement("img");
+    const image = document.createElement('img');
     image.src = project.image;
     image.alt = project.title;
 
-    const infoContainer = document.createElement("div");
-    infoContainer.classList.add("info-container");
+    const infoContainer = document.createElement('div');
+    infoContainer.classList.add('info-container');
 
-    const description = document.createElement("p");
+    const description = document.createElement('p');
     description.textContent = project.description;
 
-    const closeButton = document.createElement("button");
-    closeButton.classList.add("close-button");
-    closeButton.textContent = "X";
-    closeButton.addEventListener("click", function () {
+    const closeButton = document.createElement('button');
+    closeButton.classList.add('close-button');
+    closeButton.textContent = 'X';
+    closeButton.addEventListener('click', () => {
       document.body.removeChild(popup);
       removeBlurBackground();
     });
 
     rightContainer.appendChild(closeButton);
 
-    const buttonContainer = document.createElement("div");
-    buttonContainer.classList.add("button-container");
+    const buttonContainer = document.createElement('div');
+    buttonContainer.classList.add('button-container');
 
-    const button1 = document.createElement("button");
-    button1.classList.add("popup-button");
-    button1.textContent = "See live";
+    const button1 = document.createElement('button');
+    button1.classList.add('popup-button');
+    button1.textContent = 'See live';
 
-    const image1 = document.createElement("img");
-    image1.src = "./ressources/icons/Export.png";
+    const image1 = document.createElement('img');
+    image1.src = './ressources/icons/Export.png';
     button1.appendChild(image1);
 
-    const button2 = document.createElement("button");
-    button2.classList.add("popup-button");
-    button2.textContent = "See source";
+    const button2 = document.createElement('button');
+    button2.classList.add('popup-button');
+    button2.textContent = 'See source';
 
-    const image2 = document.createElement("img");
-    image2.src = "./ressources/icons/Frame.png";
+    const image2 = document.createElement('img');
+    image2.src = './ressources/icons/Frame.png';
     button2.appendChild(image2);
 
     leftContainer.appendChild(title);

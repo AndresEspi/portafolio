@@ -1,6 +1,6 @@
 const menuToggle = document.querySelector('.button');
 const menuItems = document.querySelector('.options');
-const closeButton = document.querySelector('.close-button');
+const closeButton = document.querySelector('.close-button1');
 const menuLinks = document.querySelectorAll('.menuDisplay a');
 
 menuToggle.addEventListener('click', () => {

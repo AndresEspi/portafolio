@@ -57,27 +57,6 @@ window.addEventListener('DOMContentLoaded', () => {
     '.button-project, .button-project1, .button-project2',
   );
 
-  buttons.forEach((button, index) => {
-    button.addEventListener('click', () => {
-      const project = projects[index];
-      showPopup(project);
-      addBlurBackground();
-    });
-  });
-  function addBlurBackground() {
-    if (!blurBackgroundElement) {
-      blurBackgroundElement = document.createElement('div');
-      blurBackgroundElement.classList.add('zzz');
-      document.body.appendChild(blurBackgroundElement);
-    }
-  }
-
-  function removeBlurBackground() {
-    if (blurBackgroundElement) {
-      document.body.removeChild(blurBackgroundElement);
-      blurBackgroundElement = null;
-    }
-  }
   function showPopup(project) {
     const existingPopups = document.querySelectorAll('.popup');
     existingPopups.forEach((popup) => {
@@ -119,6 +98,12 @@ window.addEventListener('DOMContentLoaded', () => {
     const closeButton = document.createElement('button');
     closeButton.classList.add('close-button');
     closeButton.textContent = 'X';
+    function removeBlurBackground() {
+      if (blurBackgroundElement) {
+        document.body.removeChild(blurBackgroundElement);
+        blurBackgroundElement = null;
+      }
+    }
     closeButton.addEventListener('click', () => {
       document.body.removeChild(popup);
       removeBlurBackground();
@@ -162,4 +147,18 @@ window.addEventListener('DOMContentLoaded', () => {
     popup.appendChild(container);
     document.body.appendChild(popup);
   }
+  function addBlurBackground() {
+    if (!blurBackgroundElement) {
+      blurBackgroundElement = document.createElement('div');
+      blurBackgroundElement.classList.add('zzz');
+      document.body.appendChild(blurBackgroundElement);
+    }
+  }
+  buttons.forEach((button, index) => {
+    button.addEventListener('click', () => {
+      const project = projects[index];
+      showPopup(project);
+      addBlurBackground();
+    });
+  });
 });

@@ -64,7 +64,20 @@ window.addEventListener("DOMContentLoaded", function () {
       addBlurBackground();
     });
   });
+  function addBlurBackground() {
+    if (!blurBackgroundElement) {
+      blurBackgroundElement = document.createElement("div");
+      blurBackgroundElement.classList.add("zzz");
+      document.body.appendChild(blurBackgroundElement);
+    }
+  }
 
+  function removeBlurBackground() {
+    if (blurBackgroundElement) {
+      document.body.removeChild(blurBackgroundElement);
+      blurBackgroundElement = null;
+    }
+  }
   function showPopup(project) {
     const existingPopups = document.querySelectorAll(".popup");
     existingPopups.forEach(function (popup) {

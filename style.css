@@ -155,6 +155,12 @@ li {
   bottom: 0;
 }
 
+form p {
+  color: red;
+  display: none;
+  font-size: 22px;
+}
+
 .content2 {
   display: flex;
   flex-direction: column;

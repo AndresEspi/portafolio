@@ -37,3 +37,17 @@ menuLinks.forEach((link) => {
     }
   });
 });
+
+const form = document.querySelector('form');
+form.addEventListener('submit', function (event) {
+  event.preventDefault();
+  const emailField = document.getElementById('email');
+  const isEmailValid = emailField.value.trim() !== '';
+  const isEmailToLowerCase = emailField.value === emailField.value.toLowerCase();
+  if (isEmailValid && isEmailToLowerCase) {
+    document.querySelector('form p').style.display = 'none';
+    this.submit();
+  } else {
+    document.querySelector('form p').style.display = 'inline';
+  }
+});

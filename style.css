@@ -455,12 +455,6 @@ form p {
   z-index: 9999;
 }
 
-form p {
-  display: none;
-  color: red;
-  font-size: 23px;
-}
-
 @media screen and (max-width: 767px) {
   .logo {
     padding: 20px;
